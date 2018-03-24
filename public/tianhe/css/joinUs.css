@@ -1,0 +1,27 @@
+body{background: #FFF;}
+.join{width:1200px;margin: 30px auto;background: #FFF;}
+.join .join_title{text-align: center;overflow: hidden;}
+.join .join_title img:first-child{vertical-align: middle;}
+.item_div{width:1200px;margin:0 auto;}
+.item_div .item{padding:20px 40px;}
+.item li {border: 1px dashed #f04417;border-radius: 40px;width: 450px;padding:15px 0 15px 40px;float: left;margin-top:50px;}
+.item li:nth-child(2n){float:right;}
+/* .item li:nth-child(2n) */
+.item li h2{font-weight: bold;font-size: 28px;color: #f04417;}
+.item li .item_title{font-size: 14px;color: #000;font-weight: bold;margin-top:10px;}
+.item li p{font-size: 14px;color: #000;line-height: 1.5;}
+
+.concat{width:100%;margin-top:50px;}
+.concat .ft_div{}
+.concat .ft_div>div{float:left;}
+.concat .ft_div .video_box{}
+.concat .ft_div .concat_style{margin-left:50px;}
+.concat .ft_div .concat_style>p{font-size:18px;color: #f04417;line-height: 1.5;}
+.concat .ft_div .concat_style .concat_form_box{border:1px solid #686868;border-radius: 8px;padding:30px;margin-top:20px;}
+.concat .ft_div .concat_style .concat_form_box p{font-size:18px;color: #686868;}
+.concat .ft_div .concat_style .concat_form_box p:first-child{margin-bottom:10px;}
+.concat .ft_div .concat_style .concat_form_box span{vertical-align: middle;}
+.concat .ft_div .concat_style .concat_form_box input{width:176px;border:none;border-bottom:1px solid #686868;height: 28px;outline: none;vertical-align: middle;}
+.concat .ft_div .concat_style .concat_form_box a{width:254px;display: inline-block;margin: 20px auto 0 auto;background: #686868;color: #fff;font-size:20px;text-align: center;height: 40px;line-height: 40px;border-radius: 8px;}
+
+#container{margin:60px auto;}

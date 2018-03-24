@@ -31,7 +31,6 @@ $(document).ready(function(){
     
     var chatApp = new Chat(socket);
     socket.on('nameResult', function(result){
-        alert('nameResult')
         var message;
         if (result.success) {
             message = ' Your are now known as ' + result.name + '.';
@@ -43,24 +42,22 @@ $(document).ready(function(){
     })
 
     socket.on('joinResult', function(result) {
-        alert('joinResult');
+   
         $('#room').text(result.room);
         $('#messages').append(divSystemContentElement('Room changed'))
     })
 
     socket.on('message', function(message) {
-        alert('message')
+     
         var newElement = $('<div></div>').text(message.text);
         $('#messages').append(newElement);
     })
 
-    socket.on('room', function(rooms) {
-        alert('room')
-        
+    socket.on('rooms', function(rooms) {
         $('#room-list').empty();
         
         for(var room in rooms) {
-            room = room.substring(1,room.length);
+           
             if (room != '') {
                 $('#room-list').append(divEscapedContentElement(room));
             }
@@ -72,7 +69,7 @@ $(document).ready(function(){
     })
 
     setInterval(function(){
-        socket.emit('rooms');
+        socket.emit('room');
     },1000)
 
     $('#send-message').focus();

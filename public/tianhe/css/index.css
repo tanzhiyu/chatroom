@@ -1,0 +1,13 @@
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+body{background: #FFF;}
+.t_box{width:100%;overflow: hidden;position: relative;}
+t_box>div{}
+.t_box .left_div{height: 200px;border-left:960px solid #f9f9f9;border-top:50px solid transparent;border-bottom:50px solid transparent;float: left;}
+.t_box .right_div{height: 200px;border-right:960px solid #f9f9f9;border-top:50px solid transparent;border-bottom:50px solid transparent;float: right;}
+.content img{max-width: 100%;}

@@ -1,0 +1,12 @@
+.footer{height: 256px;background: #f04823;overflow: hidden;}
+.footer .com_info{width: 1200px;margin:70px auto;}
+.footer .com_info .com_text{float: left;}
+.footer .com_info .com_qrcode{float: right;}
+.footer .com_info .com_text h2{color: #FFF;margin-bottom:10px;}
+.footer .com_info .com_text p{color: #FFF;font-size: 16px;padding-left:30px;line-height: 30px;}
+.footer .com_info .com_text p:nth-child(2){background: url(../img/icon_address.png) no-repeat left center;}
+.footer .com_info .com_text p:nth-child(3){background: url(../img/icon_email.png) no-repeat left center;}
+.footer .com_info .com_text p:nth-child(4){background: url(../img/icon_phone.png) no-repeat left center;}
+.footer .com_info .com_qrcode>div{float:left;}
+.footer .com_info .com_qrcode>div p{font-size:16px;color: #FFF;text-align: center;margin-top:10px;}
+.footer .com_info .com_qrcode>div:last-child{margin-left:60px;}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* author-----zhouxincai */
+/*CSS reset*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px "微软雅黑",HELVETICA;background:#F7F7FA;-webkit-text-size-adjust:100%; color:#333; overflow-x:hidden;}
+a{color:#172c45;text-decoration:none}
+a:hover{text-decoration:none;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+
+.clearfix{zoom:1;}
+.clearfix:after{content:'';font-size:0;line-height:0;clear:both;height:0;display:block;}
+
+
+.clear80{clear:both; height:80px;}
+
+.boxshadow{box-shadow:0 0 5px #F1F1F4;}
+.error_boxshadow{box-shadow:0 0 3px #FCD1D1;}
+span.error{font-size:14px!important; color:#f00!important; margin-left:10px;}
+
+
+/*select样式*/
+select.selectStyle{appearance:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;background: url("/static/imgs/personal_info/jt.png") no-repeat scroll right 10px center transparent;padding:0 28px 0 10px}
+select.selectStyle::-ms-expand{display: none}  /*ie下去除默认样式*/
+input[type=number] {-moz-appearance:textfield;}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;margin: 0;}
+/* 清楚浏览器记住密码的默认样式 */
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0 1000px white inset !important;}
+

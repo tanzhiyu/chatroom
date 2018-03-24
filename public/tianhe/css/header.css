@@ -1,0 +1,15 @@
+body{background: #FFF;}
+.header{width:100%;background: #FFF;border-bottom:4px solid #f04823;}
+.nav_box{width:1200px;margin:50px auto 20px auto;}
+.nav_box .logo{float: left;}
+.nav_box .nav{float: right;}
+.nav_ul{}
+.nav_ul li{float: left;position: relative;margin-left:60px;cursor:pointer;}
+.nav_ul li:hover div{display: block;}
+.nav_ul li p{font-size:18px;text-align: center;vertical-align: middle;line-height: 25px;color: #000000;font-weight: 500;}
+.nav_ul li p:nth-child(2){font-size: 14px;color:#f04823;}
+.nav_ul li p span{vertical-align: middle;display: inline-block;width: 2px;height: 18px;background: #333;margin:0 10px;}
+.service_div{width: 120px;display: none;position: absolute;z-index: 10;left:-10px;top:50px;}
+.service_div p a{color: #FFF;height: 40px;line-height: 40px;width: 100%;}
+.service_div p{background: rgba(0, 0, 0, 0.7);}
+.service_div p:hover{background: rgba(0, 0, 0, 0.6);}
